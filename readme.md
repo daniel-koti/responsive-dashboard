@@ -8,7 +8,7 @@
 <br />
 
 <p align="center">
-  <img alt="dev.finances" src="./github/print.png" width="100%">
+  <img alt="dev.finances" src=".github/print.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
