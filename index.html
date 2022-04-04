@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-pr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Panel</title>
+
+  <!-- Icons link and Css style -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <nav>
+    <div class="logo-name">
+      <div class="logo-image">
+        <img src="./assets/logo.png" alt="Logo">
+      </div>
+
+      <span class="logo_name">DanielMoniz</span>
+    </div>
+
+    <div class="menu-items">
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class="uil uil-create-dashboard"></i>
+            <span class="link-name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="uil uil-users-alt"></i>
+            <span class="link-name">Alunos</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="uil uil-chart"></i>
+            <span class="link-name">Tesouraria</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="uil uil-bell"></i>
+            <span class="link-name">Notificações</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="uil uil-user-plus"></i>
+            <span class="link-name">Matricula</span>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="logout-mode">
+        <li>
+          <a href="#">
+            <i class="uil uil-signout"></i>
+            <span class="link-name">Logout</span>
+          </a>
+        </li>
+
+        <li class="mode">
+          <a href="#">
+            <i class="uil uil-moon"></i>
+            <span class="link-name">Dark Mode</span>
+          </a>
+          <div class="mode-toggle">
+            <span class="switch"></span>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="dashboard">
+    <div class="top">
+      <i class="uil uil-bars sidebar-toggle"></i>
+
+      <div class="search-box">
+        <i class="uil uil-search"></i>
+        <input type="text" placeholder="Pesquise aqui...">
+      </div>
+
+      <img src="./assets/perfil.png" alt="Logo User">
+    </div>
+
+    <div class="dash-content">
+      <div class="overview">
+        <div class="title">
+          <i class="uil uil-tachometer-fast"></i>
+          <span class="text">Menu Principal</span>
+        </div>
+
+        <div class="boxes">
+          <div class="box box-1">
+            <i class="uil uil-thumbs-up"></i>
+            <span class="text">Ano lectivo</span>
+            <span class="number">2021</span>
+          </div>
+
+          <div class="box box-2">
+            <i class="uil uil-mars"></i>
+            <span class="text">Meninos</span>
+            <span class="number">2000</span>
+          </div>
+
+          <div class="box box-3">
+            <i class="uil uil-venus"></i>
+            <span class="text">Meninas</span>
+            <span class="number">2000</span>
+          </div>
+        </div>
+
+        <div class="activity">
+          <div class="title">
+            <i class="uil uil-clock"></i>
+            <span class="text">Matrículas recentes</span>
+          </div>
+    
+          <div class="activity-data">
+            <div class="data names">
+              <span class="data-title">Nome</span>
+              <span class="data-list">Daniel Moniz</span>
+              <span class="data-list">Ricardo Tavares</span>
+              <span class="data-list">Fabiana Souza</span>
+              <span class="data-list">Roberto Justo</span>
+            </div>
+    
+            <div class="data email">
+              <span class="data-title">Email</span>
+              <span class="data-list">danielkoti@example.com</span>
+              <span class="data-list">ricardotavar@example.com</span>
+              <span class="data-list">fabianasouza@example.com</span>
+              <span class="data-list">robertojusto@example.com</span>
+            </div>
+    
+            <div class="data joined">
+              <span class="data-title">Data Matricula</span>
+              <span class="data-list">11-05-2020</span>
+              <span class="data-list">13-01-2020</span>
+              <span class="data-list">28-12-2020</span>
+              <span class="data-list">01-07-2020</span>
+            </div>
+
+            <div class="data type">
+              <span class="data-title">Tipo</span>
+              <span class="data-list">Equivalência</span>
+              <span class="data-list">Ano completo</span>
+              <span class="data-list">Ano completo</span>
+              <span class="data-list">Ano completo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+  </section>
+
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
